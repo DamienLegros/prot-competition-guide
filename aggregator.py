@@ -227,10 +227,11 @@ SCRAPE_TARGETS = {
         "location": "Remote",
         "prizes": "Continuous benchmarking",
     },
+    # NOTE: CAFA website changed from cafa.iddo.org (broken) - use alternative
     "CAFA (Critical Assessment)": {
-        "url": "https://cafa.iddo.org",
+        "url": "https://www.biofunctionprediction.org/cafa/",
         "link_pattern": "/",
-        "base": "https://cafa.iddo.org",
+        "base": "https://www.biofunctionprediction.org",
         "organizer": "CAFA Consortium",
         "location": "Remote",
         "prizes": "Publication + ISMB invitation",
@@ -360,10 +361,13 @@ SEED_COMPETITIONS = [
         "requirements": "Team wiki, presentation, poster, and working biological project.",
         "contact": "competition@igem.org",
     },
+    # NOTE: CAFA website https://cafa.iddo.org/ appears to be down/broken
+    # Alternative: Check https://www.biofunctionprediction.org/cafa/ or search for "CAFA6 functional annotation"
+    # Keeping as placeholder but marking unverified
     {
-        "url": "https://cafa.iddo.org/",
+        "url": "https://www.biofunctionprediction.org/cafa/",
         "source": "CAFA Consortium",
-        "title": "CAFA6 – Critical Assessment of Functional Annotation",
+        "title": "CAFA6 – Critical Assessment of Functional Annotation (CAFA6)",
         "organizer": "CAFA Consortium / Indiana University",
         "location": "Remote – results at ISMB 2025",
         "team_size": "Individual or group",
@@ -373,10 +377,12 @@ SEED_COMPETITIONS = [
         "eligibility": "Open to all",
         "end_date": "2025-06-01",
         "tags": ["Protein Function", "Annotation", "Machine Learning"],
-        "description": "Community challenge to advance computational prediction of gene product functions across the tree of life.",
-        "how_to_apply": "Register on CAFA website, download benchmark sets, submit predictions.",
+        "description": "Community challenge to advance computational prediction of gene product functions. NOTE: Verify URL - original cafa.iddo.org is down.",
+        "how_to_apply": "Search for CAFA6 registration or check ISMB 2025 website for current CAFA challenge info.",
         "requirements": "GO term predictions with confidence scores.",
-        "contact": "cafa@iddo.org",
+        "contact": "Check ISMB/ECCB conference website",
+        "verified": False,  # URL changed from cafa.iddo.org - verify before applying
+        "original_url_broken": "https://cafa.iddo.org/",
     },
     {
         "url": "https://www.nyas.org/events/2025/hack-the-genome/",
@@ -414,41 +420,26 @@ SEED_COMPETITIONS = [
         "requirements": "Synapse account. Coding skills in Python/R recommended.",
         "contact": "dream@sagebionetworks.org",
     },
+    # NOTE: Leash Bio BELKA competition ended July 2024 - removed expired competition
+    # Check https://www.kaggle.com/competitions for current active competitions
     {
-        "url": "https://www.kaggle.com/competitions/leash-BELKA",
-        "source": "Kaggle / Leash Bio",
-        "title": "Leash Bio – BELKA Small Molecule Binding Prediction",
-        "organizer": "Leash Bio / Kaggle",
-        "location": "Online",
-        "team_size": "Individual or team of up to 5",
-        "prizes": "$50,000 prize pool",
-        "travel_grant": False,
-        "registration": "Free",
-        "eligibility": "Open to all",
-        "end_date": "2024-07-08",
-        "tags": ["Drug Discovery", "Machine Learning", "Ligand"],
-        "description": "Predict small molecule binding to three protein targets at unprecedented scale. 133M small molecules to explore.",
-        "how_to_apply": "Register on Kaggle, join competition, download dataset, submit predictions.",
-        "requirements": "Kaggle account. GPU access recommended.",
-        "contact": "competitions@kaggle.com",
-    },
-    {
-        "url": "https://www.embl.org/events/",
+        "url": "https://www.embl.org/about/info/course-conference-office/events/",
         "source": "EMBL",
-        "title": "EMBL Computational Biology Symposium – Poster Prize",
+        "title": "EMBL Conferences & Courses – Various Competitions",
         "organizer": "European Molecular Biology Laboratory",
-        "location": "Heidelberg, Germany",
+        "location": "Heidelberg, Germany + Virtual",
         "team_size": "Individual",
-        "prizes": "€1,000 poster prize + free conference registration",
+        "prizes": "Varies by event (poster prizes, travel grants)",
         "travel_grant": True,
         "registration": "Conference fee applies",
-        "eligibility": "PhD students & postdocs",
-        "end_date": "2025-09-15",
-        "tags": ["Structural Biology", "Computational Biology"],
-        "description": "Annual EMBL symposium with dedicated poster competition for early-career computational biologists.",
-        "how_to_apply": "Submit abstract through conference portal. Indicate poster preference.",
-        "requirements": "PhD student or postdoc status. Original research.",
+        "eligibility": "Varies by event",
+        "end_date": "2025-12-31",
+        "tags": ["Structural Biology", "Computational Biology", "Conference"],
+        "description": "EMBL hosts multiple conferences and courses annually with poster competitions and awards. Check website for current opportunities.",
+        "how_to_apply": "Browse events on EMBL website, submit abstract, register for conference.",
+        "requirements": "Varies by specific conference.",
         "contact": "events@embl.de",
+        "verified": False,  # Generic listing - verify specific competition before applying
     },
     {
         "url": "https://www.cameo3d.org/",
@@ -468,24 +459,7 @@ SEED_COMPETITIONS = [
         "requirements": "Automated prediction pipeline. Server must be registered.",
         "contact": "cameo@isb-sib.ch",
     },
-    {
-        "url": "https://alphafold.ebi.ac.uk/",
-        "source": "AlphaFold DB",
-        "title": "AlphaFold Protein Structure Database Challenge",
-        "organizer": "DeepMind / EMBL-EBI",
-        "location": "Remote",
-        "team_size": "Individual",
-        "prizes": "Recognition on leaderboard",
-        "travel_grant": False,
-        "registration": "Free",
-        "eligibility": "Open to all",
-        "end_date": "Continuous",
-        "tags": ["AlphaFold", "Structure Prediction", "Database"],
-        "description": "Community challenge to predict structures for proteins in AlphaFold DB. Compare your method against state-of-the-art.",
-        "how_to_apply": "Download sequences from AFDB, submit predictions, upload to evaluation server.",
-        "requirements": "Predictions in PDB format. Method documentation required.",
-        "contact": "alphafold@ebi.ac.uk",
-    },
+    # NOTE: Removed fake "AlphaFold DB Challenge" - alphafold.ebi.ac.uk is just the database, not a competition
     {
         "url": "https://biodesignchallenge.org/",
         "source": "Biodesign Challenge",
@@ -539,44 +513,104 @@ SEED_COMPETITIONS = [
         "how_to_apply": "Register on ROSIE, submit method for blind testing against weekly targets.",
         "requirements": "Rosetta protocol or custom method. Documentation required.",
         "contact": "rosie@uw.edu",
+        "verified": True,
     },
-    {
-        "url": "https://www.ebi.ac.uk/pdbe/emdb/",
-        "source": "EMDB",
-        "title": "Cryo-EM Model Challenge",
-        "organizer": "EMBL-EBI / EMDB",
-        "location": "Remote",
-        "team_size": "Individual or group",
-        "prizes": "Recognition at EM meeting",
-        "travel_grant": True,
-        "registration": "Free",
-        "eligibility": "Open to all",
-        "end_date": "2025-07-30",
-        "tags": ["Cryo-EM", "Structure", "Electron Microscopy"],
-        "description": "Challenge to build atomic models from cryo-EM density maps. Tests modeling methods for membrane proteins and complexes.",
-        "how_to_apply": "Download maps from EMDB, submit models, participate in validation.",
-        "requirements": "Cryo-EM modeling software (ChimeraX, Coot, etc.).",
-        "contact": "emdb@ebi.ac.uk",
-    },
-    {
-        "url": "https://sbgrid.org/collaborations/",
-        "source": "SBGrid",
-        "title": "SBGrid Software Challenge",
-        "organizer": "SBGrid Consortium / Harvard Medical School",
-        "location": "Remote",
-        "team_size": "Individual",
-        "prizes": "Software deployment support + recognition",
-        "travel_grant": False,
-        "registration": "Free",
-        "eligibility": "Open source developers",
-        "end_date": "Rolling",
-        "tags": ["Software", "Structural Biology", "Open Source"],
-        "description": "Challenge to develop and optimize open-source software tools for structural biology.",
-        "how_to_apply": "Submit software proposal through SBGrid portal. Code must be open source.",
-        "requirements": "Open source license. Documentation and tests required.",
-        "contact": "info@sbgrid.org",
-    },
+    # NOTE: EMDB is just a database (https://www.ebi.ac.uk/pdbe/emdb/), not a competition
+    # For actual cryo-EM challenges, check https://www.emdataresource.org/challenges or specific conferences
+    # NOTE: SBGrid collaborations page (https://sbgrid.org/collaborations/) lists partnerships, not active competitions
+    # Check https://sbgrid.org/software/ for software resources
 ]
+
+# VERIFIED competition URLs for reference (checked manually):
+# ✅ https://design.adaptyvbio.com/ - Active protein design competition
+# ✅ https://predictioncenter.org/casp16/ - Active CASP16
+# ✅ https://competition.igem.org/ - Active iGEM 2025
+# ❌ https://cafa.iddo.org/ - BROKEN (use https://www.biofunctionprediction.org/cafa/ or search CAFA6)
+# ✅ https://dreamchallenges.org/ - DREAM challenges portal
+# ✅ https://biodesignchallenge.org/ - Biodesign Challenge 2025
+# ✅ https://www.cameo3d.org/ - CAMEO continuous benchmarking
+# ✅ https://rosie.rosettacommons.org/ - ROSIE server evaluation
+# ✅ https://www.pdbj.org/csa/ - PDBj Coding Sprint (verify if active)
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# URL VERIFICATION
+# ═══════════════════════════════════════════════════════════════════════════════
+
+def verify_url(url: str, timeout: int = 10) -> Tuple[bool, int, str]:
+    """
+    Verify if a URL is reachable.
+    Returns: (is_reachable, status_code, error_message)
+    """
+    try:
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        }
+        response = requests.head(url, timeout=timeout, headers=headers, allow_redirects=True)
+        
+        # If HEAD fails, try GET
+        if response.status_code >= 400:
+            response = requests.get(url, timeout=timeout, headers=headers, allow_redirects=True)
+        
+        is_ok = response.status_code < 400
+        return (is_ok, response.status_code, "OK" if is_ok else f"HTTP {response.status_code}")
+        
+    except requests.exceptions.Timeout:
+        return (False, 0, "Timeout")
+    except requests.exceptions.ConnectionError:
+        return (False, 0, "Connection Error")
+    except requests.exceptions.TooManyRedirects:
+        return (False, 0, "Too Many Redirects")
+    except Exception as e:
+        return (False, 0, str(e)[:50])
+
+def verify_seed_competitions():
+    """
+    Verify all seed competition URLs and report broken links.
+    Run this manually: python -c "from aggregator import verify_seed_competitions; verify_seed_competitions()"
+    """
+    print("=" * 70)
+    print("VERIFYING SEED COMPETITION URLs")
+    print("=" * 70)
+    
+    broken = []
+    working = []
+    
+    for comp in SEED_COMPETITIONS:
+        if not isinstance(comp, dict) or 'url' not in comp:
+            continue
+            
+        url = comp['url']
+        title = comp.get('title', 'Unknown')
+        
+        print(f"\nChecking: {title[:50]}...")
+        print(f"  URL: {url}")
+        
+        is_ok, status, msg = verify_url(url)
+        
+        if is_ok:
+            print(f"  ✅ Working (HTTP {status})")
+            working.append((title, url))
+        else:
+            print(f"  ❌ BROKEN: {msg}")
+            broken.append((title, url, msg))
+            
+            # Check if there's an alternative URL provided
+            if comp.get('original_url_broken'):
+                print(f"  ℹ️  Original URL was: {comp['original_url_broken']}")
+    
+    print("\n" + "=" * 70)
+    print("SUMMARY")
+    print("=" * 70)
+    print(f"Working: {len(working)}")
+    print(f"Broken: {len(broken)}")
+    
+    if broken:
+        print("\n🚨 BROKEN URLs - NEED FIXING:")
+        for title, url, msg in broken:
+            print(f"  • {title}")
+            print(f"    {url} - {msg}")
+    
+    return broken
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # HELPER FUNCTIONS
@@ -895,14 +929,36 @@ def fetch_rss(db: Dict):
         except Exception as e:
             print(f"    ✗ {name}: {e}")
 
-def inject_seeds(db: Dict):
-    """Inject hardcoded seed competitions."""
+def inject_seeds(db: Dict, verify_urls: bool = False):
+    """
+    Inject hardcoded seed competitions.
+    
+    Args:
+        db: Database dictionary
+        verify_urls: If True, skip entries with broken URLs (slow - makes HTTP requests)
+    """
     for comp in SEED_COMPETITIONS:
-        url = comp.pop('url')
+        if not isinstance(comp, dict):
+            continue  # Skip comment entries
+            
+        url = comp.get('url')
+        if not url:
+            continue
+            
+        # Optional: Verify URL before adding
+        if verify_urls:
+            is_ok, status, msg = verify_url(url, timeout=5)
+            if not is_ok:
+                print(f"⚠️  Skipping broken seed URL: {url} ({msg})")
+                continue
+        
         if url not in db:
-            db[url] = comp
+            db[url] = comp.copy()
             db[url]['link'] = url
             db[url]['added_date'] = datetime.datetime.now().isoformat()
+            
+            # Mark as manually curated
+            db[url]['source'] = db[url].get('source', 'Seed Database') + ' (Manual)'
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # ENHANCED HTML GENERATION
@@ -933,6 +989,7 @@ def generate_html(db: Dict):
         # Badges
         grant_badge = '<span class="badge grant">✈ Travel Grant</span>' if item.get('travel_grant') else ''
         free_badge = '<span class="badge free">FREE</span>' if 'free' in str(item.get('registration', '')).lower() else ''
+        verified_badge = '<span class="badge verified">✓ Verified</span>' if item.get('verified') else ''
         
         # Status indicator
         try:
@@ -949,13 +1006,18 @@ def generate_html(db: Dict):
         except:
             status = '<span class="status open">Open</span>'
         
+        # Get added date for sorting
+        added_date = item.get('added_date', datetime.datetime.now().isoformat())
+        end_date_sort = item.get('end_date', '2099-12-31')
+        
         # Create card with modal trigger
         cards_html += f'''
         <div class="card" data-tags="{tags_data}" data-grant="{str(item.get('travel_grant', False)).lower()}" 
              data-free="{'true' if 'free' in str(item.get('registration', '')).lower() else 'false'}"
-             data-title="{item['title'].lower().replace('"', '&quot;')}">
+             data-title="{item['title'].lower().replace('"', '&quot;')}" 
+             data-added="{added_date}" data-end="{end_date_sort}" data-source="{item['source'].lower().replace(' ', '-')}">
           <div class="card-header">
-            <div class="card-badges">{grant_badge} {free_badge} {status}</div>
+            <div class="card-badges">{verified_badge} {grant_badge} {free_badge} {status}</div>
             <span class="source-chip">{item['source']}</span>
           </div>
           <h3 class="card-title">{item['title']}</h3>
@@ -1154,6 +1216,27 @@ h1 {{
   box-shadow: 0 0 0 3px rgba(59,130,246,0.1);
 }}
 
+.sort-select {{
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  padding: 0.75rem 2.5rem 0.75rem 1rem;
+  outline: none;
+  cursor: pointer;
+  transition: var(--transition);
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%239ca3af' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+}}
+
+.sort-select:hover, .sort-select:focus {{
+  border-color: var(--accent);
+}}
+
 .search-input::placeholder {{ color: var(--text3); }}
 
 .filter-bar {{
@@ -1267,6 +1350,12 @@ h1 {{
   background: rgba(6,182,212,0.15);
   color: var(--accent2);
   border: 1px solid rgba(6,182,212,0.3);
+}}
+
+.badge.verified {{
+  background: rgba(139,92,246,0.15);
+  color: #a78bfa;
+  border: 1px solid rgba(139,92,246,0.3);
 }}
 
 .status {{
@@ -1602,6 +1691,14 @@ footer a:hover {{
 <div class="controls">
   <div class="search-row">
     <input class="search-input" id="search" type="text" placeholder="🔍 Search competitions, organizations, keywords...">
+    <select class="sort-select" id="sort">
+      <option value="latest" selected>📅 Latest Added First</option>
+      <option value="deadline-asc">⏰ Deadline: Soonest First</option>
+      <option value="deadline-desc">⏰ Deadline: Latest First</option>
+      <option value="title-asc">🔤 Title: A-Z</option>
+      <option value="title-desc">🔤 Title: Z-A</option>
+      <option value="source">📰 Source</option>
+    </select>
   </div>
   <div class="filter-bar" id="filter-bar">
     {filter_btns}
@@ -1633,6 +1730,10 @@ footer a:hover {{
 
 <footer>
   <p>Updated daily via automated aggregation | Sources: CASP, iGEM, Kaggle, DREAM, EMBL, NIH, ERC, and 50+ scientific feeds</p>
+  <p style="margin-top: 0.5rem; color: var(--text3);">
+    <strong>⚠️ Note:</strong> Competitions marked with ✓ Verified have been manually checked. 
+    Auto-crawled entries may have incorrect details — always verify on the official website before applying.
+  </p>
   <p style="margin-top: 0.5rem;">Built with ❤️ for the protein science community</p>
 </footer>
 
@@ -1643,7 +1744,50 @@ const cards = Array.from(document.querySelectorAll('.card'));
 const grid = document.getElementById('grid');
 const search = document.getElementById('search');
 const filterBar = document.getElementById('filter-bar');
+const sortSelect = document.getElementById('sort');
 let activeFilter = 'all';
+let activeSort = 'latest';
+
+function sortCards(cardsToSort) {{
+  const sortType = sortSelect.value;
+  
+  return cardsToSort.sort((a, b) => {{
+    switch(sortType) {{
+      case 'latest':
+        // Sort by added date (newest first)
+        const dateA = new Date(a.dataset.added || '2000-01-01');
+        const dateB = new Date(b.dataset.added || '2000-01-01');
+        return dateB - dateA;
+        
+      case 'deadline-asc':
+        // Sort by deadline (soonest first)
+        const endA = new Date(a.dataset.end || '2099-12-31');
+        const endB = new Date(b.dataset.end || '2099-12-31');
+        const expiredA = endA < new Date();
+        const expiredB = endB < new Date();
+        if (expiredA !== expiredB) return expiredA ? 1 : -1;
+        return endA - endB;
+        
+      case 'deadline-desc':
+        // Sort by deadline (latest first)
+        const endA2 = new Date(a.dataset.end || '2000-01-01');
+        const endB2 = new Date(b.dataset.end || '2000-01-01');
+        return endB2 - endA2;
+        
+      case 'title-asc':
+        return a.dataset.title.localeCompare(b.dataset.title);
+        
+      case 'title-desc':
+        return b.dataset.title.localeCompare(a.dataset.title);
+        
+      case 'source':
+        return a.dataset.source.localeCompare(b.dataset.source);
+        
+      default:
+        return 0;
+    }}
+  }});
+}}
 
 function applyFilters() {{
   const q = search.value.toLowerCase().trim();
@@ -1665,6 +1809,16 @@ function applyFilters() {{
     c.classList.toggle('hidden', !show);
     if (show) visible.push(c);
   }});
+  
+  // Sort visible cards
+  visible = sortCards(visible);
+  
+  // Re-append in sorted order
+  visible.forEach(c => grid.appendChild(c));
+  
+  // Update count
+  const statShown = document.getElementById('stat-shown');
+  if (statShown) statShown.textContent = visible.length;
   
   // Empty state
   let empty = grid.querySelector('.empty-state');
@@ -1691,6 +1845,10 @@ filterBar.addEventListener('click', e => {{
 }});
 
 search.addEventListener('input', applyFilters);
+sortSelect.addEventListener('change', applyFilters);
+
+// Initial sort on load
+applyFilters();
 
 // Modal functions
 function openModal(url) {{
@@ -1779,8 +1937,6 @@ function closeModal(e) {{
 document.addEventListener('keydown', e => {{
   if (e.key === 'Escape') closeModal();
 }});
-
-applyFilters();
 </script>
 
 </body>
@@ -1797,8 +1953,19 @@ applyFilters();
 # ═══════════════════════════════════════════════════════════════════════════════
 
 if __name__ == '__main__':
+    import sys
+    
+    # Check for verification mode
+    if len(sys.argv) > 1 and sys.argv[1] == '--verify':
+        verify_seed_competitions()
+        sys.exit(0)
+    
     print('=' * 70)
     print('Protein Design & Bioinformatics Competition Aggregator v2.0')
+    print('=' * 70)
+    print('\nUsage:')
+    print('  python aggregator.py           # Run normal aggregation')
+    print('  python aggregator.py --verify  # Verify all seed URLs')
     print('=' * 70)
     
     db = load_db()
