@@ -929,14 +929,17 @@ def fetch_rss(db: Dict):
         except Exception as e:
             print(f"    ✗ {name}: {e}")
 
-def inject_seeds(db: Dict, verify_urls: bool = False):
+def inject_seeds(db: Dict, auto_verify: bool = True):
     """
-    Inject hardcoded seed competitions.
+    Inject hardcoded seed competitions with automatic URL verification.
     
     Args:
         db: Database dictionary
-        verify_urls: If True, skip entries with broken URLs (slow - makes HTTP requests)
+        auto_verify: If True, verify URLs and mark broken ones
     """
+    verified_count = 0
+    broken_count = 0
+    
     for comp in SEED_COMPETITIONS:
         if not isinstance(comp, dict):
             continue  # Skip comment entries
@@ -945,20 +948,45 @@ def inject_seeds(db: Dict, verify_urls: bool = False):
         if not url:
             continue
             
-        # Optional: Verify URL before adding
-        if verify_urls:
-            is_ok, status, msg = verify_url(url, timeout=5)
+        # Auto-verify URL
+        if auto_verify:
+            is_ok, status, msg = verify_url(url, timeout=8)
+            
             if not is_ok:
-                print(f"⚠️  Skipping broken seed URL: {url} ({msg})")
+                print(f"⚠️  BROKEN URL: {comp.get('title', 'Unknown')[:40]}...")
+                print(f"    {url} -> {msg}")
+                
+                # Check if there's an alternative URL
+                alt_url = comp.get('alt_url') or comp.get('original_url_broken')
+                if alt_url and alt_url != url:
+                    print(f"    💡 Try alternative: {alt_url}")
+                
+                # Add to DB but mark as broken
+                if url not in db:
+                    db[url] = comp.copy()
+                    db[url]['link'] = url
+                    db[url]['url_broken'] = True
+                    db[url]['url_error'] = msg
+                    db[url]['verified'] = False
+                    db[url]['added_date'] = datetime.datetime.now().isoformat()
+                    db[url]['source'] = db[url].get('source', 'Seed Database') + ' (URL Broken)'
+                broken_count += 1
                 continue
+            else:
+                verified_count += 1
         
         if url not in db:
             db[url] = comp.copy()
             db[url]['link'] = url
             db[url]['added_date'] = datetime.datetime.now().isoformat()
-            
+            db[url]['url_verified'] = auto_verify
             # Mark as manually curated
             db[url]['source'] = db[url].get('source', 'Seed Database') + ' (Manual)'
+    
+    if auto_verify:
+        print(f"\n✓ Verified {verified_count} URLs")
+        if broken_count > 0:
+            print(f"⚠️  {broken_count} broken URLs detected and marked")
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # ENHANCED HTML GENERATION
@@ -990,6 +1018,7 @@ def generate_html(db: Dict):
         grant_badge = '<span class="badge grant">✈ Travel Grant</span>' if item.get('travel_grant') else ''
         free_badge = '<span class="badge free">FREE</span>' if 'free' in str(item.get('registration', '')).lower() else ''
         verified_badge = '<span class="badge verified">✓ Verified</span>' if item.get('verified') else ''
+        broken_badge = '<span class="badge broken">⚠️ Link Broken</span>' if item.get('url_broken') else ''
         
         # Status indicator
         try:
@@ -1017,7 +1046,7 @@ def generate_html(db: Dict):
              data-title="{item['title'].lower().replace('"', '&quot;')}" 
              data-added="{added_date}" data-end="{end_date_sort}" data-source="{item['source'].lower().replace(' ', '-')}">
           <div class="card-header">
-            <div class="card-badges">{verified_badge} {grant_badge} {free_badge} {status}</div>
+            <div class="card-badges">{broken_badge} {verified_badge} {grant_badge} {free_badge} {status}</div>
             <span class="source-chip">{item['source']}</span>
           </div>
           <h3 class="card-title">{item['title']}</h3>
@@ -1356,6 +1385,13 @@ h1 {{
   background: rgba(139,92,246,0.15);
   color: #a78bfa;
   border: 1px solid rgba(139,92,246,0.3);
+}}
+
+.badge.broken {{
+  background: rgba(239,68,68,0.15);
+  color: var(--danger);
+  border: 1px solid rgba(239,68,68,0.3);
+  animation: pulse 2s infinite;
 }}
 
 .status {{
@@ -1955,8 +1991,11 @@ document.addEventListener('keydown', e => {{
 if __name__ == '__main__':
     import sys
     
-    # Check for verification mode
-    if len(sys.argv) > 1 and sys.argv[1] == '--verify':
+    # Check for standalone verification mode (no aggregation)
+    if len(sys.argv) > 1 and sys.argv[1] == '--check-urls':
+        print('=' * 70)
+        print('URL VERIFICATION MODE (no aggregation)')
+        print('=' * 70)
         verify_seed_competitions()
         sys.exit(0)
     
@@ -1964,8 +2003,8 @@ if __name__ == '__main__':
     print('Protein Design & Bioinformatics Competition Aggregator v2.0')
     print('=' * 70)
     print('\nUsage:')
-    print('  python aggregator.py           # Run normal aggregation')
-    print('  python aggregator.py --verify  # Verify all seed URLs')
+    print('  python aggregator.py            # Run normal aggregation with auto-verify')
+    print('  python aggregator.py --check-urls  # Verify all seed URLs only')
     print('=' * 70)
     
     db = load_db()

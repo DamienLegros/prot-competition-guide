@@ -25,7 +25,7 @@ jobs:
         run: pip install feedparser requests beautifulsoup4 lxml
       
       - name: Update Database
-        run: python aggregator.py --verify
+        run: python aggregator.py
       
       - name: Deploy Update
         env:
