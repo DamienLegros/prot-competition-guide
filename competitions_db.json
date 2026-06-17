@@ -4140,5 +4140,43 @@
     "requirements": "",
     "contact": "",
     "added_date": "2026-06-10T03:41:55.838208"
+  },
+  "https://platform.k12-ai-infrastructure.org/competitions/3/tutoring-outcomes/": {
+    "source": "DrivenData",
+    "title": "Competition Trace the Ace Join us on the K-12 AI Infrastructure Platform and predict the learning ga",
+    "link": "https://platform.k12-ai-infrastructure.org/competitions/3/tutoring-outcomes/",
+    "organizer": "DrivenData",
+    "location": "Online",
+    "team_size": "Check rules",
+    "prizes": "Prizes + Social impact",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "27 Aug 2026",
+    "tags": [],
+    "description": "Competition Trace the Ace Join us on the K-12 AI Infrastructure Platform and predict the learning gains from a tutoring session measured by quiz performance in this tutoring outcomes prediction challe...",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-06-17T04:07:39.743972"
+  },
+  "https://www.drivendata.org/competitions/search/?category=": {
+    "source": "DrivenData",
+    "title": "Competition",
+    "link": "https://www.drivendata.org/competitions/search/?category=",
+    "organizer": "DrivenData",
+    "location": "Online",
+    "team_size": "Check rules",
+    "prizes": "Prizes + Social impact",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2026-09-15",
+    "tags": [],
+    "description": "Competition",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-06-17T04:07:39.744372"
   }
 }
