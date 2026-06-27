@@ -4235,5 +4235,43 @@
     "requirements": "",
     "contact": "",
     "added_date": "2026-06-26T03:40:35.928749"
+  },
+  "https://www.ensembl.info/2026/06/26/updates-to-ftp-site-of-the-new-ensembl-website/": {
+    "source": "Ensembl Blog",
+    "title": "Updates to FTP site of the new Ensembl website",
+    "link": "https://www.ensembl.info/2026/06/26/updates-to-ftp-site-of-the-new-ensembl-website/",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2026-09-25",
+    "tags": [],
+    "description": "Updates to FTP site of the new Ensembl website",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-06-27T03:27:07.358652"
+  },
+  "https://ftp.ebi.ac.uk/pub/ensemblorganisms/GCA/": {
+    "source": "Ensembl Blog",
+    "title": "https://ftp.ebi.ac.uk/pub/ensemblorganisms/GCA/",
+    "link": "https://ftp.ebi.ac.uk/pub/ensemblorganisms/GCA/",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2026-06-07",
+    "tags": [],
+    "description": "The FTP site for the new Ensembl website has a new structure. In the updated structure, files are now organised under GCA/ and GCF/ subdirectories, for example: https://ftp.ebi.ac.uk/pub/ensemblorgani...",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-06-27T03:27:07.378976"
   }
 }
