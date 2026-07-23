@@ -4406,5 +4406,24 @@
     "requirements": "",
     "contact": "",
     "added_date": "2026-07-22T02:36:29.169180"
+  },
+  "https://www.drivendata.org/competitions/311/dat-parkinsons-challenge/": {
+    "source": "DrivenData",
+    "title": "DaT Parkinson's Challenge",
+    "link": "https://www.drivendata.org/competitions/311/dat-parkinsons-challenge/",
+    "organizer": "DrivenData",
+    "location": "Online",
+    "team_size": "Check rules",
+    "prizes": "Prizes + Social impact",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2026-10-21",
+    "tags": [],
+    "description": "DaT Parkinson's Challenge",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-07-23T02:42:14.316320"
   }
 }
