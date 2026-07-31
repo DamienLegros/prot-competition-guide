@@ -4444,5 +4444,24 @@
     "requirements": "",
     "contact": "",
     "added_date": "2026-07-24T02:38:16.515733"
+  },
+  "https://competitions.mozilladatacollective.com/competitions/1/lost-in-transcription/": {
+    "source": "DrivenData",
+    "title": "Competition Lost in Transcription: Advancing Speech Recognition for Underserved Linguistic Contexts ",
+    "link": "https://competitions.mozilladatacollective.com/competitions/1/lost-in-transcription/",
+    "organizer": "DrivenData",
+    "location": "Online",
+    "team_size": "Check rules",
+    "prizes": "Prizes + Social impact",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2026-10-29",
+    "tags": [],
+    "description": "Competition Lost in Transcription: Advancing Speech Recognition for Underserved Linguistic Contexts Join the first of three challenges on the Mozilla Data Collective Platform, and develop ASR models t...",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-07-31T02:46:49.730657"
   }
 }
