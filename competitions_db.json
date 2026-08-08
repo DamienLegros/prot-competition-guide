@@ -4463,5 +4463,43 @@
     "requirements": "",
     "contact": "",
     "added_date": "2026-07-31T02:46:49.730657"
+  },
+  "https://www.ensembl.info/known-bugs/ensembl-2026-07/": {
+    "source": "Ensembl Blog",
+    "title": "Ensembl 2026-07",
+    "link": "https://www.ensembl.info/known-bugs/ensembl-2026-07/",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "07 Ensembl 2026",
+    "tags": [],
+    "description": "Ensembl 2026-07",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-08-08T01:36:45.537601"
+  },
+  "https://www.ensembl.info/2026/08/07/the-2026-07-integrated-release-is-now-available-on-the-new-ensembl/": {
+    "source": "Ensembl Blog",
+    "title": "The 2026-07 integrated release is now available on the new Ensembl!",
+    "link": "https://www.ensembl.info/2026/08/07/the-2026-07-integrated-release-is-now-available-on-the-new-ensembl/",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2026-11-06",
+    "tags": [],
+    "description": "The 2026-07 integrated release is now available on the new Ensembl!",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-08-08T01:36:45.537904"
   }
 }
