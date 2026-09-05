@@ -4919,5 +4919,43 @@
     "requirements": "",
     "contact": "",
     "added_date": "2026-08-25T01:13:07.786873"
+  },
+  "https://www.ensembl.info/2026/09/04/newvep2/": {
+    "source": "Ensembl Blog",
+    "title": "Additional human variant analysis options in the new Ensembl VEP web interface",
+    "link": "https://www.ensembl.info/2026/09/04/newvep2/",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2026-12-04",
+    "tags": [],
+    "description": "Additional human variant analysis options in the new Ensembl VEP web interface",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-09-05T03:10:21.874630"
+  },
+  "https://www.ensembl.org/tools/vep": {
+    "source": "Ensembl Blog",
+    "title": "web interface",
+    "link": "https://www.ensembl.org/tools/vep",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2026-12-04",
+    "tags": [],
+    "description": "The new Ensembl Variant Effect Predictor (Ensembl VEP) web interface now has more extensive options for variants on the human GRCh38 assembly, including allele frequencies, phenotype associations and ...",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-09-05T03:10:21.874962"
   }
 }
