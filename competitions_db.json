@@ -5014,5 +5014,24 @@
     "requirements": "",
     "contact": "",
     "added_date": "2026-09-09T03:19:58.318112"
+  },
+  "https://www.drivendata.org/competitions/306/competition-doe-gems/": {
+    "source": "DrivenData",
+    "title": "The Geologic Enhanced Mapping System (GEMS) Prize Challenge",
+    "link": "https://www.drivendata.org/competitions/306/competition-doe-gems/",
+    "organizer": "DrivenData",
+    "location": "Online",
+    "team_size": "Check rules",
+    "prizes": "Prizes + Social impact",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2026-12-10",
+    "tags": [],
+    "description": "The Geologic Enhanced Mapping System (GEMS) Prize Challenge",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-09-11T03:14:52.063582"
   }
 }
