@@ -5033,5 +5033,24 @@
     "requirements": "",
     "contact": "",
     "added_date": "2026-09-11T03:14:52.063582"
+  },
+  "https://www.aicrowd.com/challenges/neurips-2020-procgen-competition": {
+    "source": "AIcrowd (Challenges)",
+    "title": "Round 2: Completed",
+    "link": "https://www.aicrowd.com/challenges/neurips-2020-procgen-competition",
+    "organizer": "AIcrowd / Various",
+    "location": "Online",
+    "team_size": "Check rules",
+    "prizes": "Varies by challenge",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2026-12-12",
+    "tags": [],
+    "description": "Round 2: Completed",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-09-13T03:25:39.546680"
   }
 }
