@@ -5092,5 +5092,87 @@
     "requirements": "",
     "contact": "",
     "added_date": "2026-09-18T03:25:09.604256"
+  },
+  "https://www.ensembl.info/2026/09/18/service-notice-18-sep-2026-ensembl-archives-failing-to-load-or-loading-slowly/": {
+    "source": "Ensembl Blog",
+    "title": "Service Notice: 18 Sep 2026 – Ensembl archives failing to load or loading slowly",
+    "link": "https://www.ensembl.info/2026/09/18/service-notice-18-sep-2026-ensembl-archives-failing-to-load-or-loading-slowly/",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "18 Sep 2026",
+    "tags": [],
+    "description": "Service Notice: 18 Sep 2026 – Ensembl archives failing to load or loading slowly",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-09-19T03:21:43.972239"
+  },
+  "https://sep2025.archive.ensembl.org/index.html": {
+    "source": "Ensembl Blog",
+    "title": "https://sep2025.archive.ensembl.org/index.html",
+    "link": "https://sep2025.archive.ensembl.org/index.html",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2026-12-18",
+    "tags": [
+      "Machine Learning"
+    ],
+    "description": "The Ensembl archive sites are currently under heavy traffic loads causing access failures or very slow performance. We apologise for the disruption to our service and our teams are exploring solutions...",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-09-19T03:21:43.972806"
+  },
+  "https://www.ensembl.info/2026/09/18/updates-to-phyloxml-files-and-schema-source/": {
+    "source": "Ensembl Blog",
+    "title": "Updates to Phyloxml files and schema source",
+    "link": "https://www.ensembl.info/2026/09/18/updates-to-phyloxml-files-and-schema-source/",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2026-12-18",
+    "tags": [
+      "Machine Learning"
+    ],
+    "description": "Updates to Phyloxml files and schema source",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-09-19T03:21:43.972967"
+  },
+  "https://europepmc.org/article/MED/19860910": {
+    "source": "Ensembl Blog",
+    "title": "https://europepmc.org/article/MED/19860910",
+    "link": "https://europepmc.org/article/MED/19860910",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2026-12-18",
+    "tags": [
+      "Machine Learning"
+    ],
+    "description": "We have also updated relevant documentation on our FTP sites regarding this change. For more details on PhyloXML we recommend the publication: Han & Zmasek (2009) https://europepmc.org/article/MED/198...",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-09-19T03:21:43.973302"
   }
 }
