@@ -5174,5 +5174,43 @@
     "requirements": "",
     "contact": "",
     "added_date": "2026-09-19T03:21:43.973302"
+  },
+  "https://www.ensembl.info/2026/09/23/ensembl-biomart-sep-2026-status-report/": {
+    "source": "Ensembl Blog",
+    "title": "Ensembl BioMart Sep 2026 status report",
+    "link": "https://www.ensembl.info/2026/09/23/ensembl-biomart-sep-2026-status-report/",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2026-12-23",
+    "tags": [],
+    "description": "Ensembl BioMart Sep 2026 status report",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-09-24T03:23:00.864486"
+  },
+  "https://support.bioconductor.org/p/9163519/": {
+    "source": "Ensembl Blog",
+    "title": "released in June 2026",
+    "link": "https://support.bioconductor.org/p/9163519/",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2026-12-23",
+    "tags": [],
+    "description": "Ensembl 116 and Ensembl Genomes 63, which were released in June 2026 , are the final versions of the legacy Ensembl site and services.",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-09-24T03:23:00.864745"
   }
 }
