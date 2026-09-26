@@ -5212,5 +5212,43 @@
     "requirements": "",
     "contact": "",
     "added_date": "2026-09-24T03:23:00.864745"
+  },
+  "https://www.ensembl.info/2026/09/25/treefam-website-will-be-retired-soon/": {
+    "source": "Ensembl Blog",
+    "title": "TreeFam website will be retired soon",
+    "link": "https://www.ensembl.info/2026/09/25/treefam-website-will-be-retired-soon/",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2026-12-25",
+    "tags": [],
+    "description": "TreeFam website will be retired soon",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-09-26T03:46:32.350822"
+  },
+  "https://ftp.ebi.ac.uk/pub/archive/treefam/": {
+    "source": "Ensembl Blog",
+    "title": "https://ftp.ebi.ac.uk/pub/archive/treefam/",
+    "link": "https://ftp.ebi.ac.uk/pub/archive/treefam/",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2026-12-25",
+    "tags": [],
+    "description": "TreeFam databases and data files are available at the TreeFam FTP archive: https://ftp.ebi.ac.uk/pub/archive/treefam/",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-09-26T03:46:32.351023"
   }
 }
