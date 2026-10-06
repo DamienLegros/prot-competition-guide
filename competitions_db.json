@@ -5250,5 +5250,24 @@
     "requirements": "",
     "contact": "",
     "added_date": "2026-09-26T03:46:32.351023"
+  },
+  "https://www.ensembl.info/known-bugs/ensembl-partial-releases/": {
+    "source": "Ensembl Blog",
+    "title": "Ensembl Partial Releases",
+    "link": "https://www.ensembl.info/known-bugs/ensembl-partial-releases/",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2027-01-04",
+    "tags": [],
+    "description": "Ensembl Partial Releases",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-10-06T05:06:56.872110"
   }
 }
