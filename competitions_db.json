@@ -5497,5 +5497,43 @@
     "requirements": "",
     "contact": "",
     "added_date": "2026-10-09T04:47:45.468582"
+  },
+  "https://www.ensembl.info/2026/10/23/ensembl-useast-and-asia-mirror-sites-are-being-retired/": {
+    "source": "Ensembl Blog",
+    "title": "Ensembl USEast and Asia mirror sites are being retired",
+    "link": "https://www.ensembl.info/2026/10/23/ensembl-useast-and-asia-mirror-sites-are-being-retired/",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2027-01-22",
+    "tags": [],
+    "description": "Ensembl USEast and Asia mirror sites are being retired",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-10-24T03:28:40.253305"
+  },
+  "https://jun2026.archive.ensembl.org/": {
+    "source": "Ensembl Blog",
+    "title": "https://jun2026.archive.ensembl.org",
+    "link": "https://jun2026.archive.ensembl.org/",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2027-01-22",
+    "tags": [],
+    "description": "BioMart users accessing the service through either mirror should update their host configuration to use https://jun2026.archive.ensembl.org directly.",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-10-24T03:28:40.253567"
   }
 }
