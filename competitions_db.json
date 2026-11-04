@@ -5554,5 +5554,24 @@
     "requirements": "",
     "contact": "",
     "added_date": "2026-10-27T03:53:43.857515"
+  },
+  "https://prizechallenge.aisingapore.org/competitions/1/visual-localisation/": {
+    "source": "DrivenData",
+    "title": "civic AISG–SLA Visual Localisation Challenge Develop AI models to accurately extract camera pose dat",
+    "link": "https://prizechallenge.aisingapore.org/competitions/1/visual-localisation/",
+    "organizer": "DrivenData",
+    "location": "Online",
+    "team_size": "Check rules",
+    "prizes": "Prizes + Social impact",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2027-02-02",
+    "tags": [],
+    "description": "civic AISG–SLA Visual Localisation Challenge Develop AI models to accurately extract camera pose data from 2D monocular images. #civic $35,000 in prizes jul 2023",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-11-04T05:00:08.978567"
   }
 }
