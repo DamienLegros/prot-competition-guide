@@ -5573,5 +5573,43 @@
     "requirements": "",
     "contact": "",
     "added_date": "2026-11-04T05:00:08.978567"
+  },
+  "https://www.ensembl.info/2026/11/11/ensembl-variation-vcf-files-renamed-on-new-ftp/": {
+    "source": "Ensembl Blog",
+    "title": "Ensembl Variation VCF files renamed on new FTP",
+    "link": "https://www.ensembl.info/2026/11/11/ensembl-variation-vcf-files-renamed-on-new-ftp/",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2027-02-10",
+    "tags": [],
+    "description": "Ensembl Variation VCF files renamed on new FTP",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-11-12T05:56:07.950612"
+  },
+  "https://ftp.ebi.ac.uk/pub/ensemblorganisms/": {
+    "source": "Ensembl Blog",
+    "title": "https://ftp.ebi.ac.uk/pub/ensemblorganisms/",
+    "link": "https://ftp.ebi.ac.uk/pub/ensemblorganisms/",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2027-02-10",
+    "tags": [],
+    "description": "To facilitate this upgrade, we have altered our VCF naming system on the new Ensembl FTP site – https://ftp.ebi.ac.uk/pub/ensemblorganisms/ .",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-11-12T05:56:07.950935"
   }
 }
