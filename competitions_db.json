@@ -5611,5 +5611,43 @@
     "requirements": "",
     "contact": "",
     "added_date": "2026-11-12T05:56:07.950935"
+  },
+  "https://platform.k12-ai-infrastructure.org/competitions/4/literacy-speech-modeling/": {
+    "source": "DrivenData",
+    "title": "Competition Where the Wild Features Are Predict kindergarteners' end-of-year reading scores from lit",
+    "link": "https://platform.k12-ai-infrastructure.org/competitions/4/literacy-speech-modeling/",
+    "organizer": "DrivenData",
+    "location": "Online",
+    "team_size": "Check rules",
+    "prizes": "Prizes + Social impact",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2027-02-18",
+    "tags": [],
+    "description": "Competition Where the Wild Features Are Predict kindergarteners' end-of-year reading scores from literacy screening audio on the K-12 AI Infrastructure Platform, and discover which speech features car...",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-11-20T05:53:49.544477"
+  },
+  "https://www.ensembl.info/2026/11/19/ensembl-115-and-older-archives-will-now-be-retained-for-three-years/": {
+    "source": "Ensembl Blog",
+    "title": "Ensembl 115 and older archives will now be retained for three years",
+    "link": "https://www.ensembl.info/2026/11/19/ensembl-115-and-older-archives-will-now-be-retained-for-three-years/",
+    "organizer": "EMBL-EBI",
+    "location": "Remote",
+    "team_size": "Check rules",
+    "prizes": "N/A",
+    "travel_grant": false,
+    "registration": "Free",
+    "eligibility": "Open to all",
+    "end_date": "2027-02-18",
+    "tags": [],
+    "description": "Ensembl 115 and older archives will now be retained for three years",
+    "how_to_apply": "",
+    "requirements": "",
+    "contact": "",
+    "added_date": "2026-11-20T05:53:51.479201"
   }
 }
